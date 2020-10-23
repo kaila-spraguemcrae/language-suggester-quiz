@@ -140,6 +140,9 @@ button {
   font-size: 70px;
   font-weight: 700;
 }
+.result1 p {
+  font-size: 25px;
+}
 
 .result2 {
   display: none;
@@ -154,6 +157,9 @@ button {
 .result2 h2 {
   font-size: 70px;
   font-weight: 700;
+}
+.result2 p {
+  font-size: 25px;
 }
 
 .result3 {
@@ -170,7 +176,11 @@ button {
   font-size: 70px;
   font-weight: 700;
 }
+.result3 p {
+  font-size: 25px;
+}
 
 img {
   width: 500px;
+  margin: 20px;
 }
