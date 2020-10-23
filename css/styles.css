@@ -1,18 +1,20 @@
-/*custom styles*/
 .container-fluid {
   width: 90%;
   max-width: 1500px;
 }
+
 body {
   font-family: 'Josefin Sans', sans-serif;
   background-color: red;
 }
+
 #background-color{
   background-color: white;
   width: auto;
   margin-top: 5%;
   border-radius: 25px;
 }
+
 .jumbotron {
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
@@ -34,8 +36,6 @@ body {
   font-size: 50px;
   font-weight: 00;
 }
-
-/* Buttons */
 
 #button, #button1, #button2, #button3, #button4, #button5 p {
   cursor: pointer;
@@ -60,7 +60,6 @@ button {
   display: none;
 }
 
-/*Questions*/
 #userName p {
   margin-bottom: 40%;
 }
@@ -70,7 +69,6 @@ button {
 }
 #question1 {
   display: none;
-  
 }
 #question1 p{
   margin-top: 20px;
@@ -80,6 +78,7 @@ button {
 #question2 {
   display: none;
 }
+
 #question2 p{
   margin-top: 20px;
   margin-bottom: 40%;
@@ -88,6 +87,7 @@ button {
 #question3 {
   display: none;
 }
+
 #question3 p{
   margin-top: 20px;
   margin-bottom: 40%;
@@ -96,6 +96,7 @@ button {
 #question4 {
   display: none;
 }
+
 #question4 p{
   margin-top: 20px;
   margin-bottom: 40%;
@@ -104,6 +105,7 @@ button {
 #question5 {
   display: none;
 }
+
 #question5 p{
   margin-top: 20px;
   margin-bottom: 50%;
@@ -112,6 +114,7 @@ button {
 #results button{
   margin-bottom: 15%;
 }
+
 #results h3 {
   font-size: 50px;
   font-weight: 300;
@@ -121,25 +124,25 @@ button {
 #results p {
   text-align: center;
 }
-#results button {
-  center
-}
-/* Results */
 
 .result1 {
   display: none;
 }
+
 .result1 .name {
   font-size: 50px;
   font-weight: 500;
 }
+
 .result1 h3 {
   font-size: 50px;
 }
+
 .result1 h2 {
   font-size: 70px;
   font-weight: 700;
 }
+
 .result1 p {
   font-size: 25px;
 }
@@ -147,10 +150,12 @@ button {
 .result2 {
   display: none;
 }
+
 .result2 .name {
   font-size: 50px;
   font-weight: 500;
 }
+
 .result2 h3 {
   font-size: 50px;
 }
@@ -158,6 +163,7 @@ button {
   font-size: 70px;
   font-weight: 700;
 }
+
 .result2 p {
   font-size: 25px;
 }
@@ -165,17 +171,21 @@ button {
 .result3 {
   display: none;
 }
+
 .result3 .name {
   font-size: 50px;
   font-weight: 500;
 }
+
 .result3 h3 {
   font-size: 50px;
 }
+
 .result3 h2 {
   font-size: 70px;
   font-weight: 700;
 }
+
 .result3 p {
   font-size: 25px;
 }
