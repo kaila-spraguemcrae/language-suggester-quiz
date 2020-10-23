@@ -8,6 +8,46 @@ function totalValue (num1, num2, num3, num4, num5) {
 
 // User Interface Logic
 $(document).ready(function(){
+  $("#next1").click(function(){
+    $("#question2").show();
+    $("#question1").hide();
+  });
+
+  $("#previous2").click(function(){
+    $("#question1").show();
+    $("#question2").hide();
+  });
+
+  $("#next2").click(function(){
+    $("#question3").show();
+    $("#question2").hide();
+  });
+
+  $("#previous3").click(function(){
+    $("#question2").show();
+    $("#question3").hide();
+  });
+
+  $("#next3").click(function(){
+    $("#question4").show();
+    $("#question3").hide();
+  });
+
+  $("#previous4").click(function(){
+    $("#question3").show();
+    $("#question4").hide();
+  });
+
+  $("#next4").click(function(){
+    $("#question5").show();
+    $("#question4").hide();
+  });
+
+  $("#previous5").click(function(){
+    $("#question4").show();
+    $("#question5").hide();
+  });
+
   $("form#questions").submit(function(event){
     event.preventDefault();
 
@@ -24,10 +64,6 @@ $(document).ready(function(){
     let color = $("input[name='color']:checked").val()
 
     let total = totalValue (os, end, dev, experience, color)
-
-    $(".clickable").click(function(){
-      $("#question2").toggle();
-    });
 
     $(".name").text(nameInput);
 

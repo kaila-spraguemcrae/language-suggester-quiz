@@ -35,6 +35,18 @@ button {
   display: none;
 }
 
+#question3 {
+  display: none;
+}
+
+#question4 {
+  display: none;
+}
+
+#question5 {
+  display: none;
+}
+
 /* Results */
 .result1 {
   display: none;

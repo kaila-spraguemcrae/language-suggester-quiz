@@ -23,7 +23,7 @@
       </div>
 
       <div id="question1">
-        <h2>What is your preferred Operating System?</h2>
+        <h2>1.) What is your preferred Operating System?</h2>
         <div class="form-check">
           <input type="radio" class="form-check-input" name="os" value="2">
           <label class="form-check-label">Microsoft Windows</label>
@@ -40,15 +40,13 @@
           <input type="radio" class="form-check-input" name="os" value="1">
           <label class="form-check-label">no preference</label>
         </div>
-        <div id="button1">
-          <p>for the next question <span class="clickable">Click Here</span> to view.</p>
-      </div>
+        <p><span id="next1">Next</span></p>
       </div>
 
       <div id="question2">
-        <h2>Are you more interested in the frontend or the backend?</h2>
+        <h2>2.) Are you more interested in the frontend or the backend?</h2>
         <div class="form-check">
-          <input type="radio" class="form-check-input" name="end" value="1">
+          <input type="radio" class="git form-check-input" name="end" value="1">
           <label class="form-check-label">frontend</label>
         </div>
         <div class="form-check">
@@ -59,10 +57,11 @@
           <input type="radio" class="form-check-input" name="end" value="3">
           <label class="form-check-label">I want to do both!</label>
         </div>
+        <p><span id="previous2">Previous</span> <span id="next2">Next</span></p>
       </div>
 
-      <div class="question3">
-        <h2>What do you want to do as a programmer?</h2>
+      <div id="question3">
+        <h2>3.) What do you want to do as a programmer?</h2>
         <div class="form-check">
           <input type="radio" class="form-check-input" name="dev" value="2">
           <label class="form-check-label">Software Development</label>
@@ -75,10 +74,11 @@
           <input type="radio" class="form-check-input" name="dev" value="3">
           <label class="form-check-label">Video Game Development</label>
         </div>
+        <p><span id="previous3">Previous</span> <span id="next3">Next</span></p>
       </div>
 
-      <div class="question4">
-        <h2>How much previous experience do you have in programming?</h2>
+      <div id="question4">
+        <h2>4.) How much previous experience do you have in programming?</h2>
         <div class="form-check">
           <input type="radio" class="form-check-input" name="experience" value="3">
           <label class="form-check-label">I am a total newbie</label>
@@ -91,10 +91,11 @@
           <input type="radio" class="form-check-input" name="experience" value="2">
           <label class="form-check-label">I have a good foundation in programming languages</label>
         </div>
+        <p><span id="previous4">Previous</span> <span id="next4">Next</span></p>
       </div>
 
-      <div class="question5">
-        <h2>What is your favorite color?</h2>
+      <div id="question5">
+        <h2>5.) What is your favorite color?</h2>
         <div class="form-check">
           <input type="radio" class="form-check-input" name="color" value="1">
           <label class="form-check-label">Red</label>
@@ -107,6 +108,7 @@
           <input type="radio" class="form-check-input" name="color" value="3">
           <label class="form-check-label">Blue</label>
         </div>
+        <p><span id="previous5">Previous</span></p>
       </div>
       <button type="submit" class="btn btn-warning">see your results</button>
     </form>
