@@ -9,8 +9,9 @@ body {
 }
 #background-color{
   background-color: white;
-  width: 80%;
-  margin: 40px;
+  width: auto;
+  margin-top: 5%;
+  border-radius: 25px;
 }
 .jumbotron {
   background-color: rgba(0, 0, 0, 0);
@@ -19,13 +20,19 @@ body {
 
 .jumbotron h1 {
   font-weight: 700;
+  font-size: 55px;
 }
 
 #userName, #question1 , #question2 , #question3 , #question4 , #question5, #results {
   margin: auto;
   width: 80%;
   padding: 10px;
-  font-size: larger;
+  font-size: 25px;
+}
+
+.size {
+  font-size: 50px;
+  font-weight: 00;
 }
 
 /* Buttons */
@@ -54,12 +61,20 @@ button {
 }
 
 /*Questions*/
+#userName p {
+  margin-bottom: 40%;
+}
+
+#userName label{
+  font-size: 50px;
+}
 #question1 {
   display: none;
   
 }
 #question1 p{
   margin-top: 20px;
+  margin-bottom: 40%;
 }
 
 #question2 {
@@ -67,6 +82,7 @@ button {
 }
 #question2 p{
   margin-top: 20px;
+  margin-bottom: 40%;
 }
 
 #question3 {
@@ -74,6 +90,7 @@ button {
 }
 #question3 p{
   margin-top: 20px;
+  margin-bottom: 40%;
 }
 
 #question4 {
@@ -81,6 +98,7 @@ button {
 }
 #question4 p{
   margin-top: 20px;
+  margin-bottom: 40%;
 }
 
 #question5 {
@@ -88,9 +106,26 @@ button {
 }
 #question5 p{
   margin-top: 20px;
+  margin-bottom: 50%;
 }
 
+#results button{
+  margin-bottom: 25%;
+}
+#results h3 {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#results p {
+  text-align: center;
+}
+#results button {
+  center
+}
 /* Results */
+
 .result1 {
   display: none;
 }
