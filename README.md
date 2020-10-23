@@ -12,15 +12,15 @@ _This website is designed to tell you what programming language you should learn
 
 ### View Online
 
-_To view my live website, {Name of Page}, visit [https://kaila-spraguemcrae.github.io/language-suggester-quiz](https://kaila-spraguemcrae.github.io/language-suggester-quiz)_
+_To view my live website visit [https://kaila-spraguemcrae.github.io/language-suggester-quiz](https://kaila-spraguemcrae.github.io/language-suggester-quiz)_
 
 ### Open Locally
 
-_Go to my GitHub repository here, {{[https://guthub.com/kaila.spraguemcrae/language-suggester-quiz](https://guthub.com/kaila.spraguemcrae/language-suggester-quiz),}} and click on the green 'Code' button to clone the repository, Open with GitHub Desktop OR Download the ZIP file_
+_Go to my GitHub repository here, [https://guthub.com/kaila.spraguemcrae/language-suggester-quiz](https://guthub.com/kaila.spraguemcrae/language-suggester-quiz), and click on the green 'Code' button to clone the repository, Open with GitHub Desktop OR Download the ZIP file_
 
 ##### To clone:
 1. _Push the green 'Clone' button and copy the URL._
-2. _Open Terminal or GitBash and input the command:_ `git clone {{https://github.com/kaila-spraguemcrae/language-suggester-quiz`}}
+2. _Open Terminal or GitBash and input the command:_ `git clone https://github.com/kaila-spraguemcrae/language-suggester-quiz`
 3. _To view the code, open the copied directory with Visual Studio Code or your preferred text editor by inputing the command `code .` in your terminal._
 4. _To view the website, open index.html in Chrome or your preferred browser._
 
