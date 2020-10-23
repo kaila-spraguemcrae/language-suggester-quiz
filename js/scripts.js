@@ -9,6 +9,8 @@ $(document).ready(function(){
   $("form#questions").submit(function(event){
     event.preventDefault();
 
+    let nameInput = $("input#name").val();
+
     let os = $("input[name='os']:checked").val();
 
     let end = $("input[name='end']:checked").val();
@@ -21,6 +23,20 @@ $(document).ready(function(){
 
     let total = totalValue (os, end, dev, experience, color)
 
-    
+    //$(".name").text(nameInput);
+    console.log(nameInput);
+
+    $(".result1").hide();
+    $(".result2").hide();
+    $(".result3").hide();
+
+    if (total >= 12){
+      $(".result3").show();
+    } else if (total >= 9) {
+      $(".result2").show();
+    } else if (total >= 5){
+      $(".result1").show();
+    } else (alert("Respond to ALL questions"));
+
   });
 });
