@@ -25,8 +25,6 @@ $(document).ready(function(){
 
     let total = totalValue (os, end, dev, experience, color)
 
-    //$(".name").text(nameInput);
-    
     $(".name").text(nameInput);
 
     $(".result1").hide();
