@@ -4,6 +4,8 @@ function totalValue (num1, num2, num3, num4, num5) {
   return parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4) + parseInt(num5)
 }
 
+
+
 // User Interface Logic
 $(document).ready(function(){
   $("form#questions").submit(function(event){
@@ -24,7 +26,8 @@ $(document).ready(function(){
     let total = totalValue (os, end, dev, experience, color)
 
     //$(".name").text(nameInput);
-    console.log(nameInput);
+    
+    $(".name").text(nameInput);
 
     $(".result1").hide();
     $(".result2").hide();
