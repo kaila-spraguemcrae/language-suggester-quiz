@@ -22,18 +22,18 @@ body {
 
 .jumbotron h1 {
   font-weight: 700;
-  font-size: 55px;
+  font-size: 65px;
 }
 
 #userName, #question1 , #question2 , #question3 , #question4 , #question5, #results {
   margin: auto;
   width: 80%;
   padding: 10px;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .size {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 00;
 }
 
@@ -65,7 +65,7 @@ button {
 }
 
 #userName label{
-  font-size: 50px;
+  font-size: 60px;
 }
 #question1 {
   display: none;
@@ -116,7 +116,7 @@ button {
 }
 
 #results h3 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 300;
   text-align: center;
 }
@@ -130,21 +130,21 @@ button {
 }
 
 .result1 .name {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 500;
 }
 
 .result1 h3 {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .result1 h2 {
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 700;
 }
 
 .result1 p {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .result2 {
@@ -152,20 +152,20 @@ button {
 }
 
 .result2 .name {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 500;
 }
 
 .result2 h3 {
-  font-size: 50px;
+  font-size: 60px;
 }
 .result2 h2 {
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 700;
 }
 
 .result2 p {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .result3 {
@@ -173,7 +173,7 @@ button {
 }
 
 .result3 .name {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 500;
 }
 
@@ -182,12 +182,12 @@ button {
 }
 
 .result3 h2 {
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 700;
 }
 
 .result3 p {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 img {
