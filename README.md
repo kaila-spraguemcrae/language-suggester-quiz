@@ -1,12 +1,12 @@
 # _Programming Language Suggestor_
 
-#### _{Brief description of applicaton}, {Date of current version}_
+#### _This is a quiz designed to tell you what programming language you should try to learn, 10.23.2020_
 
-#### By _**{List of contributors}**_
+#### By _**Kaila Sprague McRae**_
 
 ## Description
 
-_{Detailed description, its purpose and usage. What does it does and other information.}_
+_This website is designed to tell you what programming language you should learn. You recieve results after answering a number of questions. This project was created so that I could practice using and creating foundational JavaScript functions._
 
 ## Setup/Installation Requirements
 
@@ -25,6 +25,8 @@ _Go to my GitHub repository here, {{[https://guthub.com/kaila.spraguemcrae/langu
 4. _To view the website, open index.html in Chrome or your preferred browser._
 
 ## Known Bugs
+
+_no known bugs at this time._
 
 ## Support and contact details
 
