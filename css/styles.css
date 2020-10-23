@@ -1,1 +1,34 @@
 /*custom styles*/
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.jumbotron h1 {
+  font-weight: 700;
+}
+
+.question1 , .question2 , .question3 , .question4 , .question5 {
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  margin-bottom: 50px;
+}
+
+
+/* Results */
+.result1 {
+  display: none;
+}
+
+.result2 {
+  display: none;
+}
+
+.result3 {
+  display: none;
+}
