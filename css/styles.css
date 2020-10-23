@@ -110,7 +110,7 @@ button {
 }
 
 #results button{
-  margin-bottom: 25%;
+  margin-bottom: 15%;
 }
 #results h3 {
   font-size: 50px;
@@ -129,11 +129,48 @@ button {
 .result1 {
   display: none;
 }
+.result1 .name {
+  font-size: 50px;
+  font-weight: 500;
+}
+.result1 h3 {
+  font-size: 50px;
+}
+.result1 h2 {
+  font-size: 70px;
+  font-weight: 700;
+}
 
 .result2 {
   display: none;
 }
+.result2 .name {
+  font-size: 50px;
+  font-weight: 500;
+}
+.result2 h3 {
+  font-size: 50px;
+}
+.result2 h2 {
+  font-size: 70px;
+  font-weight: 700;
+}
 
 .result3 {
   display: none;
+}
+.result3 .name {
+  font-size: 50px;
+  font-weight: 500;
+}
+.result3 h3 {
+  font-size: 50px;
+}
+.result3 h2 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+img {
+  width: 500px;
 }
