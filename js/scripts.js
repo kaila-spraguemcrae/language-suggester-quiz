@@ -8,6 +8,16 @@ function totalValue (num1, num2, num3, num4, num5) {
 
 // User Interface Logic
 $(document).ready(function(){
+  $("#next").click(function(){
+    $("#question1").show();
+    $("#userName").hide();
+  });
+
+  $("#previous1").click(function(){
+    $("#userName").show();
+    $("#question1").hide();
+  });
+
   $("#next1").click(function(){
     $("#question2").show();
     $("#question1").hide();
@@ -47,6 +57,19 @@ $(document).ready(function(){
     $("#question4").show();
     $("#question5").hide();
   });
+
+    $("#next5").click(function(){
+      $("#results").show();
+      $("#question5").hide();
+    });
+
+    $("#goBack").click(function(){
+      $("#question5").show();
+      $("#results").hide();
+      $(".result1").hide();
+      $(".result2").hide();
+      $(".result3").hide();  
+    });
 
   $("form#questions").submit(function(event){
     event.preventDefault();

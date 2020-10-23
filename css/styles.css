@@ -1,50 +1,93 @@
 /*custom styles*/
+.container-fluid {
+  width: 90%;
+  max-width: 1500px;
+}
 body {
   font-family: 'Josefin Sans', sans-serif;
+  background-color: red;
+}
+#background-color{
+  background-color: white;
+  width: 80%;
+  margin: 40px;
 }
 .jumbotron {
   background-color: rgba(0, 0, 0, 0);
+  text-align: center;
 }
 
 .jumbotron h1 {
   font-weight: 700;
 }
 
-.question1 , .question2 , .question3 , .question4 , .question5 {
-  margin: 20px;
+#userName, #question1 , #question2 , #question3 , #question4 , #question5, #results {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
   font-size: larger;
 }
 
 /* Buttons */
 
-#button1 p {
-  cursor: : pointer;
+#button, #button1, #button2, #button3, #button4, #button5 p {
+  cursor: pointer;
+}
+
+#goBack {
+  cursor: pointer;
   color: #0088cc;
 }
 
-#button1 p:hover {
+#goBack:hover {
   text-decoration: underline;
 }
 
 button {
-  margin: 5px;
+  margin-top: 20px;
   margin-bottom: 50px;
+  font-weight: bold
 }
+
+#results {
+  display: none;
+}
+
 /*Questions*/
+#question1 {
+  display: none;
+  
+}
+#question1 p{
+  margin-top: 20px;
+}
+
 #question2 {
   display: none;
+}
+#question2 p{
+  margin-top: 20px;
 }
 
 #question3 {
   display: none;
 }
+#question3 p{
+  margin-top: 20px;
+}
 
 #question4 {
   display: none;
 }
+#question4 p{
+  margin-top: 20px;
+}
 
 #question5 {
   display: none;
+}
+#question5 p{
+  margin-top: 20px;
 }
 
 /* Results */
