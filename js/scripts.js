@@ -25,6 +25,10 @@ $(document).ready(function(){
 
     let total = totalValue (os, end, dev, experience, color)
 
+    $(".clickable").click(function(){
+      $("#question2").toggle();
+    });
+
     $(".name").text(nameInput);
 
     $(".result1").hide();

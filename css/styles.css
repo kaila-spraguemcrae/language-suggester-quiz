@@ -15,9 +15,24 @@ body {
   font-size: larger;
 }
 
+/* Buttons */
+
+#button1 p {
+  cursor: : pointer;
+  color: #0088cc;
+}
+
+#button1 p:hover {
+  text-decoration: underline;
+}
+
 button {
   margin: 5px;
   margin-bottom: 50px;
+}
+/*Questions*/
+#question2 {
+  display: none;
 }
 
 /* Results */
