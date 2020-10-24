@@ -1,5 +1,5 @@
 .container-fluid {
-  width: 90%;
+  width: 100%;
   max-width: 1500px;
 }
 
@@ -67,9 +67,11 @@ button {
 #userName label{
   font-size: 60px;
 }
+
 #question1 {
   display: none;
 }
+
 #question1 p{
   margin-top: 20px;
   margin-bottom: 40%;
