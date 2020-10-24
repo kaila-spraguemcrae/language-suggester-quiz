@@ -1,4 +1,4 @@
-# _Programming Language Suggestor_
+# _Programming Language Suggester Quiz_
 
 #### _This is a quiz designed to tell you what programming language you should try to learn, 10.23.2020_
 
